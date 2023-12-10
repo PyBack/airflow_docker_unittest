@@ -12,7 +12,6 @@ RUN mkdir ~/airflow/dags
 RUN cp -rv src/dev/* ~/airflow/dags/
 
 # unit test
-RUN pwd
-RUN airflow_test.sh
+RUN bash airflow_test.sh
 
 CMD ["airflow", "dags", "list"]
