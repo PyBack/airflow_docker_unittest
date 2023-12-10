@@ -1,0 +1,11 @@
+.venv_airflow
+.venv_airflow_1.10
+.idea
+logs
+__pycache__
+
+*.png
+*.db
+*.cfg
+*.pyc
+webserver_config.py
